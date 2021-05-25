@@ -18,8 +18,8 @@ variable "Security_Group" {
 variable "AMIS" {
   type = map
   default = {
-    ap-east-1 = ami-013f864ad81b818d1
-    ap-south-1 = ami-03ab5f3b31d5ee063
-    ap-southeast-1 = ami-0f9d733050c9f5365
+    ap-east-1 = "ami-013f864ad81b818d1"
+    ap-south-1 = "ami-03ab5f3b31d5ee063"
+    ap-southeast-1 = "ami-0f9d733050c9f5365"
   }
 }
