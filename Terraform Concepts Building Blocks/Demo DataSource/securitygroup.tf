@@ -3,8 +3,8 @@ data "aws_ip_ranges" "ap_south_ip_range" {
   services = ["ec2"]
 }
 
-resource "aws_security_group" "sg-custom_ap_south" {
-  name = "sg-custom_ap_south"
+resource "aws_security_group" "sg_custom_ap_south" {
+  name = "sg_custom_ap_south"
   ingress {
       from_port = "443"
       to_port = "443"
