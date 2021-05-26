@@ -5,7 +5,7 @@ data "aws_ip_ranges" "ap_south_ip_range" {
 
 resource "aws_security_group" "sg-custom_ap_south" {
   name = "sg-custom_ap_south"
-  ingress = {
+  ingress {
       from_port = "443"
       to_port = "443"
       protocol = "tcp"
